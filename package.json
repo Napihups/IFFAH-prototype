@@ -1,0 +1,12 @@
+{
+	"name": "EFAH-project",
+	"version": "0.0.1",
+	"description": "My first Modular programming with Javascript",
+	"dependencies": {
+		"express": "^4.15.2",
+		"jquery": "^3.3.1",
+		"js-logging": "^0.1.0"
+	},
+	"author": "Napihup",
+	"license": "EFA corp"
+}

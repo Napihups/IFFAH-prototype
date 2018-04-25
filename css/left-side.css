@@ -1,0 +1,214 @@
+.profile-bar{
+	background:;
+	height: 100vh;
+	max-height: 100vh;
+	text-align: center;
+	padding: 20px 25px;
+	/*padding-right: 0px !important;*/
+}
+
+.card.card-body.avatar-canvas{
+	margin-top: 40px;
+	padding: 20px 10px !important;
+	/*width: 230px;*/
+	width:auto;
+	position: relative;
+	border: none;
+	background: transparent;
+	/*border-radius: 0px !important;*/
+	/*padding-bottom: 0px !important;*/	
+	border-bottom: 1px solid #dadada;
+	margin-left: 10px !important;
+
+}
+
+.avatar-canvas img {
+	border-radius: 10%;
+	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+	/*border: 3px solid #cacaca;*/
+	 
+}
+
+.title-box{
+	margin-top: 10px;
+	background:;
+	text-align: left;
+}
+
+.title-box h1{
+	font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-box p{
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.v-family-btn{
+	width: 100%;
+	/*height: 50px;*/
+	margin-top: 10px;
+	border-radius: 2px !important;
+	color: #F4F1EA !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+/*	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+	transition: 0s;
+
+}
+
+.v-family-btn:hover{
+	background: #03182b !important;
+	/*color: #032747 !important;*/
+}
+
+.profile-content{
+	background: ;
+	/*background: transparent;*/
+	height: 100vh;
+	max-height: 100vh;
+	text-align: center;
+	padding: 35px 25px;
+	padding-left: 0px;
+	overflow-x: auto;
+}
+
+.profile-content .tab-container{
+	/*padding-top: 10px;*/
+	background:;
+	margin-top:35px;
+	height: auto;
+	padding-bottom: 1px;
+}
+
+.tab-container .nav{
+	/*padding-bottom: 20px !important;*/
+	border-bottom: 1px solid #dadada !important;
+	/*color: #30D5C7 !important;*/
+}
+.tab-container .nav li a{
+	color: #545e68 !important;
+	background:  ;
+	margin:0 20px;
+	border: 1.5px solid transparent;
+	border-radius: 0px;
+}
+
+.tab-container .nav li a:hover {
+	/*border: 1px solid black;
+	border-bottom: none;*/
+	border-bottom: 1.5px solid #30D5C7;
+	transition: 0.2s ease-out;
+	color:#032747 !important;
+}
+
+.tab-container .nav li .navtab-active {
+	border-bottom: 1.5px solid #30D5C7;
+	transition: 0.5s;
+	color:#032747 !important;
+}
+
+.tab-container .tab-content{
+	background:;
+	width:100%;
+	height: auto;
+	margin-top: 10px;
+	overflow-x: auto;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.tab-content{
+	display:none;
+}
+
+.tab-content:target{
+	display: block;
+}
+
+.tab-content .edit-icon {
+	color: #8c949c !important;
+	/*color: #545e68 !important;*/
+	font-size: 20px;
+}
+
+.tab-content .edit-icon:hover {
+	color: #49535e !important;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.tab-content .card{
+	border-radius: 4px !important;
+	/*background: transparent;*/
+	/*border: none;*/
+}
+
+.tab-content .card-header{
+	/*background: transparent !important;*/
+	border:none;
+}
+
+.card-title{
+	font-size: 17px;
+	color: #545e68;
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.tab-content .card-divider{
+	background: ;
+	width:100%;
+	/*height: 100px;*/
+	border-bottom: 1px solid #dadada !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.tab-content .card-divider a{
+	font-size: 15px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.card-icon{
+	color: #032747 !important;
+	/*color: #545e68;*/
+	font-size: 30px;
+	/*padding: 5px 5px;*/
+}
+
+.bio-text{
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 500;
+	color: #032747;
+}
+
+.bio-start{
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 500;
+	color: #032747;
+}
+
+#hobby-card .nav{
+	border-bottom: none !important;
+}
+
+
+
+/*  #8c949c */
+
+/*  #032747 */
+
+
+
+
+
+

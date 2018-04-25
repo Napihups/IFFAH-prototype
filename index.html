@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title>Modular Programming </title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <link rel ="stylesheet" href="/css/new-login.css" type="text/css">
+</head>
+<body id="body">
+
+	
+
+
+<div class="login">
+   	<div class="container text-center" style="background: ">
+	    
+		<div class="logo">
+			<img src ="./assets/icon6.PNG" class="img-fluid"/>
+		</div>
+   </div>
+   <div class="container text-center">
+   		<h1 class="login-header-text">Login With your username or <a href="/signup">Sign up !</a></h1>
+   		<form class="form">
+   			<div class="form-group">
+   				<input id ="userNameIn" type="text" class="form-control" placeholder="Username">
+   			</div>
+   			<div class="form-group">
+   				<input type="password" class="form-control" placeholder="Password">
+   			</div>
+   			<div class="checkbox show">
+
+                <span id = "checkb" class="character-checkbox"></span>
+                <span class="label">Remember me</span>
+            </div>
+
+            <div class="form-group">
+            	<a href="/user/home" class="btn btn-md btn-login">Sign in</a>
+            </div>
+
+            <p class="lead forgot"><a href="#">Forget password ?</a></p>
+   		</form>
+   </div>
+
+   
+
+
+</div>    
+
+
+
+
+ 
+
+
+</body>
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script> -->
+
+  <script type="text/javascript">
+
+  	window.onload = function() {
+
+   
+  		$("#userNameIn").focus();
+  		let boxChecked = false;
+
+	  	$("#checkb").click(function(event) {
+	  		boxChecked = !boxChecked;
+	  		if(boxChecked){
+	  			$(this).html('<i class="tick fas fa-check"></i>');
+	  		} else {
+	  			$(this).html('');
+	  		}
+	  	})
+  	}
+
+  </script>
+</html>
