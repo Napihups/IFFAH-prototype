@@ -2,14 +2,14 @@
 /*  #032747 */
 /* #30D5C7 */
 
-.skills .btn{
+.add-skill-btn{
 	/*float:left;*/
 	background: #30D5C7 !important;
-	margin-left: 20px;
+	margin-left: 10px;
 	color: white;
 }
 
-.skills .btn:hover{
+.add-skill-btn:hover{
 	/*float:left;*/
 	background: #2abbaf !important;
 	color: white !important;

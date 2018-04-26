@@ -2,6 +2,11 @@
 #employmenttab .card-body{
 	margin-bottom: 20px;
 }
+
+
+#employmenttab .row{
+	margin-bottom: 10px;
+}
 #employmenttab h1{
 	float:left;
 	font-size: 20px;
@@ -40,6 +45,8 @@
 
 .edit-emp-icon:hover {
 	color:#2abbaf !important;
+	text-decoration: underline;
+	cursor: pointer;
 
 }
 .current{
@@ -57,7 +64,28 @@
 	margin-top: 30px;
 	font-size: 16px !important;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #dadada;
+	/*border-bottom: 1px solid #dadada;*/
 	color: #032747;
 	font-weight: bold;
+	text-decoration: underline;
+}
+
+.add-employment-btn{
+	background: #30D5C7;
+	color:white;
+}
+
+.add-employment-btn:hover{
+	background: #2abbaf;
+	color:white;
+}
+
+.income-badge{
+	/* still in testing */
+	/*background: #30D5C7 !important;
+	padding: 5px 10px;
+	border-radius: 30px;
+	color:white;
+	font-weight: bold;
+	margin-right: 10px;*/
 }
