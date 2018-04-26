@@ -1,0 +1,46 @@
+/*  #8c949c */
+/*  #032747 */
+/* #30D5C7 */
+
+.skills .btn{
+	/*float:left;*/
+	background: #30D5C7 !important;
+	margin-left: 20px;
+	color: white;
+}
+
+.skills .btn:hover{
+	/*float:left;*/
+	background: #2abbaf !important;
+	color: white !important;
+}
+
+.skills .btn:active{
+	background: #30D5C7 !important;
+	color: white !important;
+}
+
+.skill-card{
+	width:250px; 
+	margin: 10px;
+	padding: 10px;
+}
+
+.skill-card h1{
+	border-bottom: 1px solid #dadada ;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: 700;
+	font: 'Open Sans', sans-serif;
+	color: #032747 !important;
+
+}
+
+.remove-skill-icon {
+	color:#30D5C7 !important;
+}
+
+.remove-skill-icon:hover {
+	color:#2abbaf !important;
+	cursor: pointer;
+}

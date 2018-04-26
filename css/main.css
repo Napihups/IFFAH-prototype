@@ -5,6 +5,7 @@
 @import url('left-side.css');
 @import url('right-side.css');
 @import url('skill-tab.css');
+@import url('emp-tab.css');
 
 
 /* g-1 = 30D5C7 */
@@ -13,10 +14,12 @@ body{
  /* border: 0.5px solid #dadada;
   width: 1400px;
   margin: 0 auto;*/
+  background: blue;
 }
 #body{
     background: #e9ebee;
-    font: 'Open Sans', sans-serif; 
+    /*font: 'Open Sans', sans-serif; */
+    font: 14px/1.21 Roboto, 'Helvetica Neue', arial, helvetica, sans-serif;
     /*max-width: 1800px;*/
 }
 
@@ -84,7 +87,7 @@ body{
 .nav-item a {
     color: #F4F1EA !important;
     font-size: 15px;
-    font-family: 'Josefin Sans', sans-serif !important;
+    /*font-family: 'Josefin Sans', sans-serif !important;*/
     font-weight: 400;
     padding-right: 10px !important;
     padding-left: 10px !important;
@@ -157,6 +160,10 @@ body{
   /*z-index: 2;*/
 }
 
+#link1 {
+  margin-bottom: 5px;
+}
+
 
 
 
@@ -172,5 +179,23 @@ body{
       margin: 0 auto;
     }
 }
+
+::-webkit-scrollbar {
+    width: 4px;  /* remove scrollbar space */
+    background: #dadada;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #8c949c;
+    border-radius: 20px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7b8288;
+    border-radius: 20px;
+    height: 10px;
+}
+
+
 
 

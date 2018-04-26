@@ -23,7 +23,7 @@ app.get('/user/home', function(req, res){
 	res.sendFile(__dirname + "/user-home.html");
 })
 app.get("/body-content", function(req, res) {
-	res.sendFile(__dirname + "/templates/usecase1.0/about.html");
+	res.sendFile(__dirname + "/templates/usecase1.0/abouttab.html");
 })
 
 /*------------------------------------------------------*/
@@ -32,10 +32,17 @@ app.get('/skilltab', function(req, res){
 })
 
 app.get('/skilltab-body-content', function(req, res){
-	res.sendFile(__dirname + "/templates/usecase1.1/body-content1.1.html");
+	res.sendFile(__dirname + "/templates/usecase1.1/skilltab.html");
 })
 /*------------------------------------------------------*/
+app.get('/employmenttab', function(req, res){
+	res.sendFile(__dirname + "/templates/usecase1.2/navbar.html");
+})
 
+app.get('/employmenttab-body-content', function(req, res){
+	res.sendFile(__dirname + "/templates/usecase1.2/employmenttab.html");
+})
+/*------------------------------------------------------*/
 
 
 

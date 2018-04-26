@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sign up </title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <link rel ="stylesheet" href="/css/main.css" type="text/css">
+</head>
+<body id="body">
+
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light cust-navbar-body">
+
+		<div id ="navbar-wrapper" class="navbar-wrapper container-fluid">
+					  <a id ="logo" class="navbar-brand" href="#"><img src ="/assets/navbar-logo.PNG" class="img-fluid"/></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav mr-auto">
+					      <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <i class="fas fa-user nav-icon-md"></i>
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					        	<a class="dropdown-item" href="#">Profile  </a>
+					          <a class="dropdown-item" href="#">Setting  </a>
+					          <a class="dropdown-item" href="#">Privacy Policy </a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="/login">Log out</a>
+					        </div>
+					      </li>
+					      <div class="form-inline">
+					      	<input class="form-control search-input" placeholder="Search">
+					      	<button class="search-btn"><i class="fas fa-search"></i></button>
+					      </div>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#"><i class="fas fa-bell nav-icon-md"></i>
+					         <span class="badge badge-danger">192</span>
+					     	</a>
+					      </li>
+
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#"><i class="fas fa-book nav-icon-md"></i><span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#"><i class="fas fa-child nav-icon-md"></i><span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#"><i class="fas fa-money-bill-alt nav-icon-md"></i><span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#"><i class="fas fa-briefcase nav-icon-md"></i><span class="sr-only">(current)</span></a>
+					      </li>
+					     
+					     
+					        
+					    </ul>
+
+					     <ul class="navbar-nav mr-auto">
+					      	  <li class="nav-item">
+				      			<img class="me-avatar" src="/assets/profile.jpg" alt="" />
+						      </li>
+						      <li class="nav-item" >
+						        <a id ="link1" href="#" class="nav-link" >Napihup <span class="sr-only">(current)</span></a>
+						      </li>
+					     </ul>
+					    
+					  </div>
+
+		</div>
+</nav>
+
+	<div id ="router" w3-include-html="/employmenttab-body-content"></div>
+
+
+</body>
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+<!------------------- CUSTOM JS -------------------------------------------->
+<script type="text/javascript">
+
+
+
+
+
+	includeHTML();
+
+	var router = $('#router');
+
+
+
+	function includeHTML() {
+	  var z, i, elmnt, file, xhttp;
+	  /*loop through a collection of all HTML elements:*/
+	  z = document.getElementsByTagName("*");
+	  for (i = 0; i < z.length; i++) {
+	    elmnt = z[i];
+	    /*search for elements with a certain atrribute:*/
+	    file = elmnt.getAttribute("w3-include-html");
+	    if (file) {
+	      /*make an HTTP request using the attribute value as the file name:*/
+	      xhttp = new XMLHttpRequest();
+	      xhttp.onreadystatechange = function() {
+	        if (this.readyState == 4) {
+	          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+	          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+	          /*remove the attribute, and call this function once more:*/
+	          elmnt.removeAttribute("w3-include-html");
+	          includeHTML();
+	        }
+	      } 
+	      xhttp.open("GET", file, true);
+	      xhttp.send();
+	      /*exit the function:*/
+	      return;
+	    }
+	  }
+	}
+
+
+
+
+
+
+	
+
+
+</script>
+
+
+</html>

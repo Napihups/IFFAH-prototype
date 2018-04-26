@@ -1,0 +1,63 @@
+
+#employmenttab .card-body{
+	margin-bottom: 20px;
+}
+#employmenttab h1{
+	float:left;
+	font-size: 20px;
+	color: #032747 !important;
+	border-bottom: 1px solid #dadada ;
+}
+
+#employmenttab .addr-text{
+	font-size: 13px;
+}
+
+#employmenttab .emp-table{
+	float: left;
+	background:;
+	width: auto;
+}
+
+#employmenttab .emp-table .table-head{
+	color: #032747 !important;
+	font-weight: 600;
+	width: 150px !important;
+}
+
+#employmenttab table tr{
+	height: 40px;
+}
+
+#employmenttab table tr td{
+	/*border: 1px solid black;*/
+}
+
+
+.edit-emp-icon {
+	color:#30D5C7 !important;
+}
+
+.edit-emp-icon:hover {
+	color:#2abbaf !important;
+
+}
+.current{
+	color:#30D5C7 !important;
+	font-size: 15px;
+	margin-right: 10px;
+	/*font-weight: lighter;*/
+	margin-bottom: 10px;
+	border: 1px solid #30D5C7;
+	border-radius: 30px;
+	padding: 5px;
+}
+
+.secondary-header{
+	margin-top: 30px;
+	font-size: 16px !important;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dadada;
+	color: #032747;
+	font-weight: bold;
+}

@@ -36,8 +36,8 @@
 }
 
 .title-box h1{
-	font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif !important;
+	font-size: 25px;
+    /*font-family: 'Josefin Sans', sans-serif !important;*/
     padding: 0px;
     margin: 0px;
 }
@@ -46,6 +46,8 @@
 	font-size: 15px;
 	margin: 0px;
 	padding: 0px;
+	font-style: italic;
+	color: #8c949c;
 }
 
 .v-family-btn{
@@ -53,15 +55,16 @@
 	/*height: 50px;*/
 	margin-top: 10px;
 	border-radius: 2px !important;
+	background: #30D5C7;
 	color: #F4F1EA !important;
-	font-family: 'Josefin Sans', sans-serif !important;
+	/*font-family: 'Josefin Sans', sans-serif !important;*/
 /*	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
 	transition: 0s;
 
 }
 
 .v-family-btn:hover{
-	background: #03182b !important;
+	background: #2abbaf !important;
 	/*color: #032747 !important;*/
 }
 
@@ -90,7 +93,8 @@
 	/*color: #30D5C7 !important;*/
 }
 .tab-container .nav li a{
-	color: #545e68 !important;
+	color: #8c949c !important;
+	font-weight: 600;
 	background:  ;
 	margin:0 20px;
 	border: 1.5px solid transparent;
@@ -148,7 +152,7 @@
 .card-title{
 	font-size: 17px;
 	color: #545e68;
-	font-family: 'Josefin Sans', sans-serif !important;
+	/*font-family: 'Josefin Sans', sans-serif !important;*/
 }
 
 .tab-content .card-divider{
@@ -175,7 +179,7 @@
 }
 
 .bio-text{
-	font-family: 'Josefin Sans', sans-serif !important;
+	/*font-family: 'Josefin Sans', sans-serif !important;*/
 	font-style: italic;
 	font-size: 20px;
 	font-weight: 500;
@@ -183,7 +187,7 @@
 }
 
 .bio-start{
-	font-family: 'Josefin Sans', sans-serif !important;
+	/*font-family: 'Josefin Sans', sans-serif !important;*/
 	font-style: italic;
 	font-size: 20px;
 	font-weight: 500;
