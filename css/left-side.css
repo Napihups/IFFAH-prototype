@@ -125,17 +125,29 @@
 	padding-bottom: 0px;
 }
 
+.tab-content .add-about-icon{
+	color: #30D5C7 !important;
+	font-weight: bold;
+	margin: 0px 0px;
+}
+
+.tab-content .add-about-icon:hover{
+	color: #2abbaf !important;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 
 .tab-content .edit-icon {
-	color: #8c949c !important;
+	color: #30D5C7 !important;
 	/*color: #545e68 !important;*/
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .tab-content .edit-icon:hover {
-	color: #49535e !important;
-	font-size: 20px;
+	color: #2abbaf !important;
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 .tab-content .card{
