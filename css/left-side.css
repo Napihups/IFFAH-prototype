@@ -125,6 +125,62 @@
 	padding-bottom: 0px;
 }
 
+
+#main-profile-card .profile-section {
+	background: !important;
+}
+
+#main-profile-card .profile-section h1{
+	font-size: 18px;
+	color: #032747;
+}
+
+#main-profile-card .edit-main-profile{
+	color: #30D5C7;
+	font-size: 20px;
+}
+
+#main-profile-card .edit-main-profile:hover{
+	color: #2abbaf;
+	font-size: 20px;
+	cursor: pointer;
+}
+#main-profile-card .bold-text{
+	font-size: 15px;
+	margin-top: 10px;
+}
+#main-profile-card .bold-text span{
+	font-weight: bold;
+}
+
+#main-profile-card .profile-card-header{
+	border-bottom: 1px solid #dadada;
+}
+
+#main-profile-card .profile-edit-btn{
+	background: #30D5C7 !important;
+	color: white;
+	padding: 5px 20px;
+}
+
+#main-profile-card .profile-edit-btn:hover{
+	background: #2abbaf !important;
+	color: white;
+}
+
+#main-profile-card .profile-private-setting-btn{
+	border: 1px solid #30D5C7 !important;
+	color: #30D5C7;
+	background: transparent;
+}
+#main-profile-card .profile-private-setting-btn:hover{
+	border: 1px solid #2abbaf !important;
+	color: white;
+	background: #2abbaf;
+}
+
+
+
 .tab-content .add-about-icon{
 	color: #30D5C7 !important;
 	font-weight: bold;
@@ -164,6 +220,7 @@
 .card-title{
 	font-size: 17px;
 	color: #545e68;
+	font-weight: bold;
 	/*font-family: 'Josefin Sans', sans-serif !important;*/
 }
 

@@ -46,6 +46,7 @@ app.get('/employmenttab-body-content', function(req, res){
 
 
 
+
 app.use('/js', express.static(__dirname + "/js"));
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/assets', express.static(__dirname + '/assets'));
