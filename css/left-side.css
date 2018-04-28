@@ -1,5 +1,5 @@
 .profile-bar{
-	background:;
+	background: #dadada;
 	height: 100vh;
 	max-height: 100vh;
 	text-align: center;
@@ -8,25 +8,30 @@
 }
 
 .card.card-body.avatar-canvas{
-	margin-top: 50px;
+	margin-top: 70px;
 	padding: 20px 10px !important;
 	/*width: 230px;*/
 	width:auto;
 	position: relative;
 	border: none;
-	background: transparent;
-	/*border-radius: 0px !important;*/
+	background: white;
+	border-radius: 0px !important;
+/*	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;*/
 	/*padding-bottom: 0px !important;*/	
 	border-bottom: 1px solid #dadada;
-	margin-left: 10px !important;
+	margin-left: 0px !important;
 
 }
 
 .avatar-canvas img {
-	border-radius: 10%;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin: 0px auto;
 	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
-	/*border: 3px solid #cacaca;*/
-	 
+	/*border: 3px solid #cacaca;	 */
 }
 
 .title-box{
@@ -40,6 +45,7 @@
     /*font-family: 'Josefin Sans', sans-serif !important;*/
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 .title-box p{
@@ -48,6 +54,7 @@
 	padding: 0px;
 	font-style: italic;
 	color: #8c949c;
+	text-align: center;
 }
 
 .v-family-btn{
